@@ -1,0 +1,54 @@
+:root{
+  --color-1:#FDD3D3;
+  --color-3:#ffe4e4;
+  --color-2:#fff6f3;
+  --color-4:#F7F6F6;
+  --color-5:#ffe3e8;
+  --color-6:#F95679;
+  --color-7:#ffdae3;
+
+  --letter-spacing: 0.56px;
+  --text-transform: none;
+  --text-decoration: none;
+  --line-height: 1.6;
+  --text-alignment: start;
+  --link-text-color: #0099ff;
+  --font-size: 16px;
+
+
+ 
+  --gray-1: rgb(163, 163, 163);
+  --gray-2: rgb(115, 115, 115);
+  --gray-3: rgb(82, 82, 82);
+  --gray-4: rgb(64, 64, 64);
+  --gray-5: rgb(38, 38, 38);
+  --gray-6: rgb(23, 23, 23);
+}
+
+
+
+html,
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+  color:var(--gray-3)
+}
+
+h1,h2,h3,h4,h5,h6, b{
+  color: var(--gray-5);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-6);
+}
+
+* {
+  box-sizing: border-box;
+}
